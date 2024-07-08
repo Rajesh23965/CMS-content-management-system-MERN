@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+:root {
+  --sidebar-bg: #1a202c; /* Example custom variable */
+}
+
+/* Additional custom styles here */
+
+
+@layer utilities {
+  .transition-all {
+    transition: all 0.3s ease-in-out;
+  }
+}
